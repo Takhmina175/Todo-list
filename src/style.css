@@ -1,0 +1,67 @@
+body {
+  background-color: beige;
+}
+
+.container {
+  width: 25%;
+  background-color: white;
+  height: 500px;
+  border: 1px solid darkgray;
+  margin: 5em auto;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid beige;
+  justify-content: space-evenly;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+
+.fas {
+  margin-top: 28px;
+}
+
+.add-to-do {
+  margin-left: 10px;
+  margin-bottom: 2em;
+}
+
+#input {
+  border: none;
+  font-size: 20px;
+  width: 357px;
+  padding-left: 18px;
+}
+
+.content {
+  height: 58%;
+}
+
+.footer {
+  text-align: center;
+  padding: 1px;
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+}
+
+#list {
+  list-style-type: none;
+}
+
+.text {
+  margin: 0;
+  width: 19em;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-trash-alt {
+  margin-right: 35px;
+}
