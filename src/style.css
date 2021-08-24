@@ -1,55 +1,54 @@
 body {
-  background-color: beige;
+  background-color: #f6f6f6;
 }
 
 .container {
-  width: 25%;
+  width: 32%;
   background-color: white;
-  height: 500px;
+  height: 377px;
   border: 1px solid darkgray;
   margin: 5em auto;
   border-radius: 10px;
 }
 
 .header {
+  color: #545862;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 1rem;
+  line-height: 20px;
+  margin: 0;
+  width: 91%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
   display: flex;
-  border-bottom: 1px solid beige;
-  justify-content: space-evenly;
-  background-color: blue;
-  color: white;
-  font-size: 20px;
-}
-
-.fas {
-  margin-top: 28px;
+  justify-content: space-between;
 }
 
 .add-to-do {
   margin-left: 10px;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 #input {
   border: none;
   font-size: 20px;
-  width: 250px;
-  padding-left: 18px;
+  width: 90%;
+  font-style: italic;
 }
 
 .content {
-  height: 58%;
+  height: 50%;
 }
 
 .footer {
   text-align: center;
   padding: 1px;
-  font-size: 20px;
-  background-color: blue;
-  color: white;
-}
-
-#list {
-  list-style-type: none;
+  font-size: 15px;
+  background-color: #f6f6f6;
+  color: #545862;
+  border-radius: 8px;
 }
 
 .text {
@@ -62,6 +61,31 @@ body {
   justify-content: space-between;
 }
 
-.fa-trash-alt {
-  margin-right: 35px;
+li > p {
+  width: 23em;
+}
+
+#todo-list p {
+  background: white;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  border-bottom: 1px solid rgba(112, 78, 78, 0.08);
+  padding: 10px;
+}
+
+#checkList {
+  padding-right: 13px;
+}
+
+.fa-sync-alt {
+  align-self: center;
 }

@@ -18,8 +18,20 @@ const listToDo = [
 ];
 const list = document.querySelector('#todo-list');
 listToDo.forEach((todoItem) => {
-  const newToDo = document.createElement('li');
-  newToDo.innerHTML = '<i class="far fa-square"></i>';
+  const unorderedList = document.createElement('li');
+
+  const checkButton = document.createElement('div');
+  checkButton.id = 'checkList';
+  checkButton.innerHTML = '<i class="far fa-square"></i>';
+  unorderedList.append(checkButton);
+
+  const newToDo = document.createElement('p');
   newToDo.innerText = todoItem.description;
-  list.append(newToDo);
+  unorderedList.append(newToDo);
+
+  const moveButton = document.createElement('div');
+  moveButton.id = 'moveList';
+  moveButton.innerHTML = '<i class="fas fa-ellipsis-v"></i>';
+  unorderedList.append(moveButton);
+  list.append(unorderedList);
 });
