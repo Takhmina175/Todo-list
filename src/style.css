@@ -53,16 +53,12 @@ body {
 
 .text {
   margin: 0;
-  width: 19em;
+  width: 23em;
 }
 
 .item {
   display: flex;
   justify-content: space-between;
-}
-
-li > p {
-  width: 23em;
 }
 
 #todo-list p {
@@ -88,4 +84,13 @@ li {
 
 .fa-sync-alt {
   align-self: center;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+  color: #8c8c8c;
+}
+
+.fa-check {
+  color: #2e8ae6;
 }
